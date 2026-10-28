@@ -1,0 +1,89 @@
+PMID- 33903747
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210831
+LR  - 20250530
+IS  - 2058-5276 (Electronic)
+IS  - 2058-5276 (Linking)
+VI  - 6
+IP  - 5
+DP  - 2021 May
+TI  - Cell division in the archaeon Haloferax volcanii relies on two FtsZ proteins with 
+      distinct functions in division ring assembly and constriction.
+PG  - 594-605
+LID - 10.1038/s41564-021-00894-z [doi]
+AB  - In bacteria, the tubulin homologue FtsZ assembles a cytokinetic ring, termed the 
+      Z ring, and plays a key role in the machinery that constricts to divide the 
+      cells. Many archaea encode two FtsZ proteins from distinct families, FtsZ1 and 
+      FtsZ2, with previously unclear functions. Here, we show that Haloferax volcanii 
+      cannot divide properly without either or both FtsZ proteins, but DNA replication 
+      continues and cells proliferate in alternative ways, such as blebbing and 
+      fragmentation, via remarkable envelope plasticity. FtsZ1 and FtsZ2 colocalize to 
+      form the dynamic division ring. However, FtsZ1 can assemble rings independent of 
+      FtsZ2, and stabilizes FtsZ2 in the ring, whereas FtsZ2 functions primarily in the 
+      constriction mechanism. FtsZ1 also influenced cell shape, suggesting it forms a 
+      hub-like platform at midcell for the assembly of shape-related systems too. Both 
+      FtsZ1 and FtsZ2 are widespread in archaea with a single S-layer envelope, but 
+      archaea with a pseudomurein wall and division septum only have FtsZ1. FtsZ1 is 
+      therefore likely to provide a fundamental recruitment role in diverse archaea, 
+      and FtsZ2 is required for constriction of a flexible S-layer envelope, where an 
+      internal constriction force might dominate the division mechanism, in contrast 
+      with the single-FtsZ bacteria and archaea that divide primarily by wall ingrowth.
+FAU - Liao, Yan
+AU  - Liao Y
+AD  - The iThree Institute, University of Technology Sydney, Sydney, New South Wales, 
+      Australia.
+FAU - Ithurbide, Solenne
+AU  - Ithurbide S
+AD  - The iThree Institute, University of Technology Sydney, Sydney, New South Wales, 
+      Australia.
+FAU - Evenhuis, Christian
+AU  - Evenhuis C
+AD  - The iThree Institute, University of Technology Sydney, Sydney, New South Wales, 
+      Australia.
+FAU - Löwe, Jan
+AU  - Löwe J
+AUID- ORCID: 0000-0002-5218-6615
+AD  - MRC Laboratory of Molecular Biology, Cambridge, UK.
+FAU - Duggin, Iain G
+AU  - Duggin IG
+AUID- ORCID: 0000-0003-4868-7350
+AD  - The iThree Institute, University of Technology Sydney, Sydney, New South Wales, 
+      Australia. Iain.Duggin@uts.edu.au.
+LA  - eng
+GR  - MC_U105184326/MRC_/Medical Research Council/United Kingdom
+GR  - BB_/Biotechnology and Biological Sciences Research Council/United Kingdom
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20210426
+PL  - England
+TA  - Nat Microbiol
+JT  - Nature microbiology
+JID - 101674869
+RN  - 0 (Archaeal Proteins)
+RN  - 0 (FtsZ protein, Methanococcus jannaschii)
+SB  - IM
+CIN - Nat Rev Microbiol. 2021 Jul;19(7):405. doi: 10.1038/s41579-021-00568-x. PMID: 
+      33941910
+MH  - Archaeal Proteins/*chemistry/genetics/*metabolism
+MH  - *Cell Division
+MH  - Haloferax volcanii/chemistry/*cytology/genetics/*metabolism
+MH  - Protein Binding
+PMC - PMC7611241
+MID - EMS129338
+COIS- Competing Interests The authors declare no competing interests.
+EDAT- 2021/04/28 06:00
+MHDA- 2021/09/01 06:00
+PMCR- 2021/11/01
+CRDT- 2021/04/27 06:52
+PHST- 2020/06/16 00:00 [received]
+PHST- 2021/03/22 00:00 [accepted]
+PHST- 2021/04/28 06:00 [pubmed]
+PHST- 2021/09/01 06:00 [medline]
+PHST- 2021/04/27 06:52 [entrez]
+PHST- 2021/11/01 00:00 [pmc-release]
+AID - 10.1038/s41564-021-00894-z [pii]
+AID - 10.1038/s41564-021-00894-z [doi]
+PST - ppublish
+SO  - Nat Microbiol. 2021 May;6(5):594-605. doi: 10.1038/s41564-021-00894-z. Epub 2021 
+      Apr 26.

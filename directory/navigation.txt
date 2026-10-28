@@ -1,0 +1,5 @@
+To navigate directories in a Linux terminal,
+ use these fundamental commands:
+Basic Navigationpwd: 
+Shows your current location.ls: Lists files in current directory.ls -la: Lists all hidden files.cd /path/to/folder: Changes to specific directory.Moving Quicklycd ..: Moves up one folder level.cd ~: Returns to your home directory.cd -: Toggles back to last directory.What specific navigation task or directory structure are you trying to work with right now?
+

@@ -1,0 +1,9 @@
+Alex	13	April	50000
+Gloria	34	Jan	78000
+Arthur	20	Sep	5000
+Hilda	21	Jul	-
+Alex	13	Jul	35000
+Tom	56	Nov	100000
+gloria	45	Jun	50000
+Hilda	21	Dec	35000
+

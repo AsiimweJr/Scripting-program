@@ -1,0 +1,152 @@
+
+Research Question: How have prokaryotic cell division genes evolved across bacteriaand archaeal domains, and what evolutionary pressures have shaped their diversity?
+• Scope: Comparative gene conservation, domain architecture evolution, divergence in
+extremophiles.
+• Sources: Phylogenetic and comparative genomics studies
+Searched the web
+
+Now let me look at the divisome/dcw gene cluster evolution in bacteria, MinCDE/Min system, and extremophile-specific adaptations (thermophiles, halophiles) to cover conservation and diversification pressures.
+Searched the web, viewed a file
+Evolution of Prokaryotic Cell Division Genes Across Bacteria and Archaea
+1. Deep ancestry: a shared core, then divergent elaboration
+
+The cytokinesis machine at the heart of most prokaryotic division systems traces to a single deep origin. Phylogenomic reconstructions place the tubulin/FtsZ GTPase in the last universal common ancestor (LUCA), since FtsZ was present in the last common ancestor of Bacteria and Archaea. Its universal membrane anchor, SepF, appears to be equally ancient: comparative analysis across both domains indicates SepF and FtsZ were already present in the Last Universal Common Ancestor, and the Archaea might have retained features of an ancestral minimal cytokinesis machinery, while Bacteria diverged substantially, likely to accommodate the emergence of a rigid cell wall and the complex divisome. This is a central theme in the literature: archaea largely kept a stripped-down, ancestral-type division apparatus, while bacteria built an elaborate, cell-wall-integrated divisome on top of the same core scaffold.
+nih
+biorxiv
+2. Bacterial diversification: gene duplication, cluster stability, and the dcw "genomic island"
+
+Duplication and lineage-specific innovation. Large-scale surveys of FtsZ homologs across bacterial phyla found at least five independent ftsZ gene-duplication events in the bacterial kingdom, indicating that duplication-and-diversification, rather than simple vertical inheritance of a single copy, has repeatedly reshaped this gene family.
+PubMed
+
+Extraordinary conservation of the dcw gene cluster. In most bacteria, ftsZ sits inside the division and cell-wall (dcw) gene cluster, which also encodes peptidoglycan-precursor synthesis enzymes and other divisome components. This cluster is remarkably resistant to genomic reshuffling: a prominent feature of this division and cell wall (dcw) cluster is that it is conserved in many bacterial genomes over a broad taxonomic range, which is remarkable, as genome organization, gene content, and gene order within operons or gene clusters are very dynamic in evolutionary terms. A recent large comparative-genomics study places its origin even earlier and treats it as a phylogenetic marker in its own right: the origin of the dcw gene cluster in the Last Bacterial Common Ancestor, and it has evolved vertically for billions of years, similar to major cellular machineries such as the ribosome, with strong phylogenetic signal and conserved genomic synteny at large evolutionary distances.
+NCBI
+Nature
+
+Morphology as a selective pressure on gene order. Conservation of the cluster is not uniform — it correlates with cell shape. In contrast to cocci, the majority of rod-shaped and filamentous bacteria have been found to possess a conserved dcw cluster, a pattern attributed to co-translational assembly advantages ("genomic channeling") that only matter when division machinery must be built with precise stoichiometry along an elongated cell axis.
+NCBI
+
+Repeated, independent loss. Despite this conservation, several bacterial lineages have abandoned FtsZ-based division altogether. Genome-reduced, wall-less Mollicutes show loss of dcw genes during genome reduction, and comparative work on the Planctomycetes-Verrucomicrobia-Chlamydiae superphylum shows that their last common ancestor possessed a conserved, ancestral type of dcw gene cluster and an FtsZ-based cell division mechanism, yet Planctomycetes and Chlamydiae may have shifted independently to a non-FtsZ-based cell division mechanism after their separate branchings from their last common ancestor with Verrucomicrobia. This is a clear case of convergent, independent gene loss tied to loss of the peptidoglycan wall and adoption of a budding division mode, rather than a single ancestral transition.
+| Overview of the dcw gene cluster organization in selected bacteria.... | Download Scientific Diagram +2
+
+Division-site selection systems are add-ons, not universal cores. MinCDE and nucleoid occlusion (Noc/SlmA) evolved as accessory spatial-regulation layers on top of FtsZ, and their necessity varies by lineage. Even in a Min-system model organism, Z rings are positioned correctly at the division site in the complete absence of both these systems, revealing the existence of a mechanism independent of Min and nucleoid occlusion that identifies midcell, and Min mainly acts to ensure efficient and timely usage of this site rather than to define it. Other bacteria, such as Corynebacterium glutamicum, lack recognizable Min and nucleoid occlusion systems entirely and instead rely on chromosome-segregation cues, showing that spatial-regulation genes are evolutionarily labile "modules" layered onto a conserved FtsZ core rather than obligatory universal components.
+The Min System and Nucleoid Occlusion Are Not Required for Identifying the Division Site in Bacillus subtilis but Ensure Its Efficient Utilization | PLOS Genetics +2
+3. Archaeal domain-architecture evolution: three parallel division systems
+
+Comparative genomics of archaea revealed a strikingly different picture from bacteria: rather than one universal machine, archaea maintain three distinct, only partially overlapping membrane-remodeling/division systems, distributed unevenly across lineages: the FtsZ-based bacterial-type system present in most Euryarchaeota, the ESCRT-III-based system responsible for cell division in the Desulfurococcales and Sulfolobales, and a putative novel system centred on an archaeal actin-related protein in the Thermoproteales, with many archaeal genomes — particularly Korarchaeum, Thaumarchaeota, and some Thermococci — encoding assortments of components from different systems. The evolutionary interpretation drawn from this mosaic distribution is that the last common ancestor of the extant Archaea possessed a complex membrane remodelling apparatus, different components of which were lost during subsequent evolution of archaeal lineages, in contrast to eukaryotes, which appear to have retained representatives of all three ancestral systems.
+Nature
+PubMed Central
+
+FtsZ duplication in archaea. Where FtsZ is retained, it is usually present in two ancient paralogs rather than one: in archaea, ftsZ duplicated prior to archaeal diversification, and one of the copies is associated with protein biosynthesis genes, while Archaea usually present two ancestral copies of FtsZ that appear to have non-overlapping functions, and this same lineage has additionally expanded the FtsZ/tubulin protein family with sequences closely related to eukaryotic tubulins, including novel CetZ-like groups in Halobacterota and Asgardarchaeota. This contrasts with the single-copy norm in most bacteria and reflects a distinct duplication-and-subfunctionalization trajectory within Euryarchaeota.
+Spotlight on FtsZ-based cell division in Archaea - ScienceDirect +2
+
+The ESCRT/Cdv system — an evolutionary bridge to eukaryotes. The TACK superphylum (Thaumarchaeota, Aigarchaeota, Crenarchaeota, Korarchaeota) uses the Cdv (cell division) system, whose core subunits are homologous to eukaryotic ESCRT-III machinery: the Cdv system was first described in Sulfolobus acidocaldarius, an extremophile archaeon that inhabits volcanic areas with temperatures of about 80°C and pH as low as 2–3, and it consists of three classes of proteins — CdvA, CdvB (with multiple paralogs), and CdvC — where CdvA is exclusively archaeal with no eukaryotic homologs, while all CdvB paralogs display homology to the eukaryotic ESCRT-III family. Sequence and gene-neighborhood analysis of CdvA specifically shows a taxonomically patchy pattern of retention: CdvA is evolutionarily lost in Thermoproteales and possibly also in Euryarchaeota, illustrating repeated, lineage-specific gene loss rather than a single clean transition. Deeper reconstruction work on the whole ESCRT superfamily concludes that the last archaeal common ancestor already encoded a complex ESCRT system involved in protein sorting, and that its repurposing specifically for cytokinesis occurred on at least two independent occasions in the evolution of archaea — a striking example of convergent co-option of the same ancestral protein family for a new function in unrelated archaeal lineages.
+The archaeal Cdv cell division system - ScienceDirect +4
+
+Asgard archaea: complexification rather than reduction. While most archaeal lineages simplified their ancestral ESCRT/Cdv complement, the Asgard superphylum — the closest known archaeal relatives of eukaryotes — moved in the opposite direction: in Asgard archaea, ESCRT systems evolved toward greater complexity, in particular via the connection between ESCRT and the ubiquitin system that was previously considered a purely eukaryotic feature. Structurally, while all other archaea encode only ESCRT-III and VPS4 homologs, Asgard archaea encode homologs of the complete ESCRT-I to -III and VPS4 system, and their sequences are more closely related to eukaryotic ESCRT/VPS4 than to other archaeal (Cdv) systems. This makes the Asgard lineage a key model for understanding how a prokaryotic division/membrane-remodeling toolkit was elaborated into the eukaryotic cytokinesis and trafficking apparatus.
+ASM Journals
+biorxiv
+4. Divergence in extremophiles: thermophiles and halophiles as case studies
+
+Several of the clearest examples of lineage-specific innovation and functional divergence in division genes come from extremophilic archaea and bacteria, where unusual physicochemical stresses (extreme heat, acidity, salinity) appear to have shaped which system is used and how it is wired.
+
+    Hyperthermoacidophiles and the Cdv/ESCRT system. The Cdv system was discovered and is best characterized in Sulfolobus acidocaldarius, an organism living at about 80°C and pH as low as 2–3, and later found more broadly across Crenarchaeota, some Euryarchaeota, and Thaumarchaeota with differing subunit complements — e.g., some Euryarchaeota encode CdvB and CdvC but not the full complement, and Thaumarchaeota (also TACK members) encode a similarly partial set. This heterogeneity under extreme thermal/acid stress suggests functional tuning or partial redundancy of division components rather than a single fixed solution.
+    ScienceDirect
+    ScienceDirect
+    Horizontal acquisition of an unexpected FtsZ paralog in a hyperthermophile. A separate, novel FtsZ-like protein family was found unexpectedly in a crenarchaeote closely related to Sulfolobus, and its patchy distribution points to horizontal transfer rather than vertical descent: the absence of these genes from other Sulfolobales, including the closely related Sulfolobus islandicus, suggests that the genes for membrane-associated, FtsZ-like proteins were acquired in a recent horizontal gene transfer event, marking the first report of FtsZ–tubulin superfamily proteins outside their expected distribution in Crenarchaeota.
+    PubMed Central
+    Extreme halophiles and a divergent FtsZ. In one of the earliest molecular studies of archaeal division genes, an FtsZ homolog isolated from the extreme halophile Halobacterium salinarium was found to be substantially diverged from bacterial FtsZ and, notably, phylogenetically closer to eukaryotic tubulin: the H. salinarium FtsZ protein is more related to tubulins than are the FtsZ proteins of eubacteria, supporting the hypothesis that FtsZ may have evolved into eukaryotic tubulin. This divergent halophilic FtsZ also showed disrupted genomic context, since no other eubacterial cell division gene homologs were found adjacent to H. salinarium ftsZ — consistent with the general pattern of archaeal FtsZ being decoupled from the tightly linked bacterial dcw arrangement.
+    PubMed
+    PubMed
+    Thermoproteales' unique actin-based system. Rather than retaining FtsZ or Cdv, the archaeal order Thermoproteales appears to rely on a distinct actin-related protein system, inferred from complementary phyletic patterns: this lineage-specific solution, together with a co-occurring ParA/Soj-family ATPase implicated in DNA/plasmid partitioning, represents yet another independent evolutionary route to solving the same topological division problem (the actin-like protein in the Thermoproteales is predicted to be a key component of a novel membrane remodelling system responsible for "snapping" division, alongside a distinct ParA–Soj family ATPase specific to this lineage).
+    PubMed Central
+    Genome reduction as an evolutionary pressure. Not all extremophile-linked divergence involves gain of new machinery — in intracellular, genome-streamlined bacteria such as Orientia tsutsugamushi, only a subset of proteins normally found in the elongasome and divisome are retained, mirroring the wall-loss-driven reduction seen in Mollicutes and showing that extreme lifestyle constraints (there, obligate intracellularity) can drive loss just as readily as innovation.
+    ResearchGate
+
+5. Evolutionary pressures shaping this diversity — synthesis
+
+Drawing across these studies, several distinct pressures recur as drivers of division-gene evolution:
+
+    Cell-wall biology. The tight coupling of FtsZ to peptidoglycan synthesis genes in the bacterial dcw cluster, and its repeated loss in wall-less or budding lineages (Mollicutes, Planctomycetes, Chlamydiae), shows that the presence/absence and mechanics of the cell wall is a primary selective force on whether — and how — the ancestral FtsZ machine is retained.
+    Cell morphology. The correlation between rod/filamentous shape and dcw cluster conservation implicates translational/assembly efficiency (genomic channeling) as a subtler but real selective pressure on gene order itself, not just gene content.
+    Thermal and chemical extremes. In hyperthermophilic and hyperacidophilic archaea, both convergent co-option (ESCRT repurposed for division at least twice independently) and horizontal gene transfer (the novel FtsZ-like operon in Sulfolobales) generated new division solutions, suggesting these harsh niches favor experimentation with alternative membrane-remodeling machinery.
+    Genome reduction/parasitism. Independent of temperature or wall status, obligate intracellular or wall-less lifestyles repeatedly favor wholesale loss of division/cell-wall genes once their original selective function (building/maintaining a free-living cell wall) disappears.
+    Duplication and subfunctionalization as a generative mechanism. Both bacterial (five independent ftsZ duplications) and archaeal (ancestral two-copy FtsZ, tubulin-like CetZ expansion) lineages generate diversity primarily through gene duplication followed by functional partitioning, rather than through wholesale invention of new protein folds.
+    Deep phylogenetic constraint alongside modular flexibility. The core GTPase (FtsZ) and its anchor (SepF) are conserved from LUCA onward, while spatial-regulation add-ons (Min, nucleoid occlusion) and entire alternative systems (ESCRT/Cdv, actin-based) are modular, lineage-restricted overlays — explaining why the division "core" is one of the most conserved gene sets in prokaryotic genomes even as the surrounding regulatory and structural architecture diversifies extensively.
+
+this is university research question, give me the reference papers to read
+Thought for 3s
+
+Here's the reading list, organized by theme, drawn from the search results above.
+Deep origin & core machinery (LUCA/cross-domain)
+
+    "SepF is the FtsZ-anchor in Archaea: implications for cell division in the Last Universal Common Ancestor" (bioRxiv) — argues FtsZ and SepF were both present in LUCA, with archaea retaining a more ancestral minimal machinery.
+    https://www.biorxiv.org/content/10.1101/2020.10.06.328377.full.pdf
+    "Early origin and evolution of the FtsZ/tubulin protein family" (PMC, 2023) — broad phylogeny of FtsZ/tubulin across the three domains; covers CetZ-like groups in Halobacterota/Asgardarchaeota.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9871819/
+    "Molecular evolution of FtsZ protein sequences encoded within the genomes of archaea, bacteria, and eukaryota" (PubMed, 2004) — 225 FtsZ homologs analyzed; documents ≥5 independent bacterial gene-duplication events and 3 ancestral euryarchaeal paralogs.
+    https://pubmed.ncbi.nlm.nih.gov/14743312/
+    "Spotlight on FtsZ-based cell division in Archaea" (ScienceDirect/ResearchGate, 2022) — revisits FtsZ/tubulin phylogeny across prokaryotic diversity.
+    https://www.sciencedirect.com/science/article/abs/pii/S0966842X22000051
+
+Bacterial dcw gene cluster & divisome evolution
+
+    "Ancient origin and constrained evolution of the division and cell wall gene cluster in Bacteria" (Nature Microbiology, 2023) — the key paper placing dcw cluster origin in the Last Bacterial Common Ancestor; strong synteny across billions of years.
+    https://www.nature.com/articles/s41564-022-01257-y
+    "The bacterial dcw gene cluster: an island in the genome?" (Springer book chapter) — earlier synthesis on dcw cluster conservation and gene order.
+    https://link.springer.com/chapter/10.1007/0-306-48579-6_13
+    "Characterization and Evolution of Cell Division and Cell Wall Synthesis Genes in the Bacterial Phyla Verrucomicrobia, Lentisphaerae, Chlamydiae, and Planctomycetes..." (Journal of Bacteriology, 2008) — evidence for independent loss of FtsZ-based division in Planctomycetes/Chlamydiae.
+    https://ncbi.nlm.nih.gov/pmc/articles/PMC2347405 (PMC version)
+    https://jb.asm.org/content/190/9/3192 (journal version)
+    "Evolutionary Cell Biology of Division Mode in the Bacterial Planctomycetes-Verrucomicrobia-Chlamydiae Superphylum" (PMC) — FtsZ-dependent vs. FtsZ-independent (budding) division across this superphylum.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5147048/
+
+Min system / division-site selection
+
+    "Open questions about the function and evolution of bacterial Min systems" (Frontiers in Microbiology, 2013) — comparative review of Min system diversity across bacteria.
+    https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2013.00378/full
+    "Nucleoid occlusion and bacterial cell division" (Nature Reviews Microbiology) — review of Noc/SlmA systems.
+    https://www.researchgate.net/publication/51735778_Nucleoid_occlusion_and_bacterial_cell_division
+    "The Min System and Nucleoid Occlusion Are Not Required for Identifying the Division Site in Bacillus subtilis..." (PLOS Genetics, 2012) — experimental evidence Min/Noc are efficiency modules, not core positional determinants.
+    https://journals.plos.org/plosgenetics/article?id=10.1371%2Fjournal.pgen.1002561
+    "Chromosome Segregation Impacts on Cell Growth and Division Site Selection in Corynebacterium glutamicum" (PMC) — example of a bacterium lacking Min/nucleoid occlusion.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3566199/
+
+Archaeal division systems (FtsZ / ESCRT-Cdv / actin)
+
+    "Evolution of diverse cell division and vesicle formation systems in Archaea" (Nature Reviews Microbiology, 2010) — the foundational comparative-genomics paper establishing the three archaeal membrane-remodeling systems.
+    https://www.nature.com/articles/nrmicro2406 (journal)
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC3293450/ (PMC)
+    "Dividing the Archaeal Way: The Ancient Cdv Cell-Division Machinery" (PMC, review) — detailed review of Cdv proteins and comparison with eukaryotic ESCRT.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5840170/
+    "The archaeal Cdv cell division system" (ScienceDirect, 2023) — updated review of CdvA/B/C distribution across Crenarchaeota, Euryarchaeota, Thaumarchaeota.
+    https://www.sciencedirect.com/science/article/abs/pii/S0966842X22003419
+    "Cell division and the ESCRT complex: A surprise from the archaea" (PubMed/Tandfonline) — early paper on CdvB paralog phylogeny in crenarchaea.
+    https://pubmed.ncbi.nlm.nih.gov/19704896/
+    https://www.tandfonline.com/doi/full/10.4161/cib.7523
+    "ESCRT-III mediated cell division in Sulfolobus acidocaldarius – a reconstitution perspective" (PMC) — mechanistic/structural detail on CdvA-ESCRT-III interface.
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4045173/
+    "Molecular structure of the ESCRT III-based archaeal CdvAB cell division machinery" (bioRxiv, 2025) — recent structural paper.
+    https://www.biorxiv.org/content/10.1101/2025.09.15.676241.full.pdf
+
+Asgard archaea, ESCRT evolution & eukaryogenesis
+
+    "Diversity, origin, and evolution of the ESCRT systems" (mBio, 2024) — key reconstruction paper; ESCRT repurposed for division independently at least twice in archaea.
+    https://journals.asm.org/doi/10.1128/mbio.00335-24
+    https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10936438/
+    "The Asgard archaeal ESCRT-III system forms helical filaments and remodels eukaryotic membranes..." (bioRxiv, 2022) — functional comparison of Asgard vs. TACK ESCRT.
+    https://www.biorxiv.org/content/10.1101/2022.09.07.506706.full.pdf
+    "Inference and reconstruction of the heimdallarchaeial ancestry of eukaryotes" (Nature, 2023) — phylogenomics placing eukaryotes within Asgard archaea; discusses ESCRT/actin duplication in the ancestor.
+    https://www.nature.com/articles/s41586-023-06186-2
+    "Dominant contribution of Asgard archaea to eukaryogenesis" (Nature, 2026) — recent large-scale gene-origin analysis of LECA.
+    https://www.nature.com/articles/s41586-025-09960-6
+    "The expanding Asgard archaea invoke novel insights into Tree of Life and eukaryogenesis" (mLife, 2022) — review covering Asgard ESCRT and actin-regulator evolution.
+    https://onlinelibrary.wiley.com/doi/full/10.1002/mlf2.12048
+
+Extremophile-specific case studies
+
+    "Isolation of an ftsZ homolog from the archaebacterium Halobacterium salinarium..." (PubMed, 1988) — classic paper, divergent halophilic FtsZ closer to tubulin than to bacterial FtsZ.
+    https://pubmed.ncbi.nlm.nih.gov/8631708/
+
+Papers #13/14/17 above (Sulfolobus/Metallosphaera work) double as your extremophile (hyperthermoacidophile) sources, since Sulfolobus acidocaldarius is the model organism for Cdv research.
+
+

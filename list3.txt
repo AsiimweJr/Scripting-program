@@ -1,0 +1,8 @@
+echo.sh
+jupyternotes.txt
+nano.11831.save
+output
+Benz
+Toyato
+Hodu
+Royce Rolls

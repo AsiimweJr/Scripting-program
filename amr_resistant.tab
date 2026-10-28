@@ -1,0 +1,5 @@
+sample	drug	susceptibility	genotype_model	phylo_group	species
+ERR594549	ampicillin	R	kmer_count	Salmonella_enterica	Salmonella_Typhi
+ERR594549	chloramphenicol	R	kmer_count	Salmonella_enterica	Salmonella_Typhi
+ERR594549	sulfonamides	R	kmer_count	Salmonella_enterica	Salmonella_Typhi
+ERR594549	trimethoprim	R	kmer_count	Salmonella_enterica	Salmonella_Typhi

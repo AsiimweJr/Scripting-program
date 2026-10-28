@@ -1,0 +1,11 @@
+==> dir10/langauges.txt <==
+Python
+
+
+R
+
+==> Dir3/file14.txt <==
+Benz
+Toyato
+Hodu
+Royce Rolls

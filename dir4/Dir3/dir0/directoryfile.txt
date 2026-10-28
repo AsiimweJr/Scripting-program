@@ -1,0 +1,5 @@
+Submit your work for grading from a terminal.
+
+Your teacher may ask you to clone or submit in a specific way. If so, follow their instructions.
+
+Clone your assignment repository (once):

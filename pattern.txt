@@ -1,0 +1,6 @@
+snp
+CIGAR
+reference
+allele
+Nabyonga
+

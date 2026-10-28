@@ -1,0 +1,40 @@
+[200~import random
+
+def compile_student_marks(names_list):
+    subjects = ['Data ANALYSIS', 'Math For Eng', 'Molecular Biology', 'Phylogenetics']
+    class_data = {}
+    
+    for name in names_list:
+        student_marks = {}
+        for subject in subjects:
+            student_marks[subject] = random.randint(50, 100)
+            
+        total_marks = sum(student_marks.values())
+        average_mark = total_marks / len(subjects)
+        
+        grade = 'A' if average_mark >= 80 else 'B' if average_mark >= 65 else 'C' if average_mark >= 50 else 'F'
+            
+        class_data[name] = {
+            "marks": student_marks, "total": total_marks, "average": round(average_mark, 2), "grade": grade
+        }
+    return class_data
+
+# === 🛠️ READ FROM VS CODE FILE HERE ===
+try:
+    with open("student_names.txt", "r") as file:
+        student_names = [line.strip() for line in file if line.strip()]
+except FileNotFoundError:
+    print("Error: 'student_names.txt' was not found in this folder!")
+    student_names = []
+
+# If names were successfully loaded, run the report
+if student_names:
+    compiled_report = compile_student_marks(student_names)
+    
+    print(f"{'Student':<28} | {'Analysis':<8} | {'MathEng':<7} | {'MolBio':<6} | {'Phylo':<5} | {'Total':<5} | {'Avg':<6} | {'Grade'}")
+    print("-" * 92)
+    for student, data in compiled_report.items():
+        m = data["marks"]
+        print(f"{student:<28} | {m['Data ANALYSIS']:<8} | {m['Math For Eng']:<7} | {m['Molecular Biology']:<6} | {m['Phylogenetics']:<5} | {data['total']:<5} | {data['average']:<6} | {data['grade']}")
+`:wq!
+
